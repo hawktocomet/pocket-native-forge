@@ -67,8 +67,17 @@ The complete directory must be placed at:
     └── sysroot/
 
 The archive must contain the complete `toolchain` directory, including
-Clang resources and the Android sysroot. A release archive has not yet
-been published.
+Clang resources and the Android sysroot.
+
+Release asset: `pn-forge-android-arm64-toolchain.tar.gz`
+
+SHA-256:
+
+`0f174813e1e7195b2bb049e47b1f49486f405410a0555fe4f19d90cf68d89ae5`
+
+Extract it from the repository root with:
+
+    tar -xzf pn-forge-android-arm64-toolchain.tar.gz -C android/app/src/main/assets
 
 The app copies this toolchain into its private storage on first launch.
 
