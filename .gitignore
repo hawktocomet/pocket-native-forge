@@ -1,0 +1,15 @@
+# Rust build output
+/target/
+
+# Android / Gradle build output
+.gradle/
+**/build/
+local.properties
+*.iml
+
+# Local machine files
+.DS_Store
+.idea/
+
+# Separately distributed Android ARM64 toolchain
+/android/app/src/main/assets/toolchain/
